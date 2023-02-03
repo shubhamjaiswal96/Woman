@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+	<title>woman security</title>
+	<link href="font-awesome-4.6.3/css/font-awesome.min.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="style.css">
+ <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"
+  type="text/javascript"></script>
+
+
+<script>
+    function showPosition() {
+        if(navigator.geolocation) {
+            navigator.geolocation.getCurrentPosition(function(position) {
+                var positionInfo = "Your current position is (" + "Latitude: " + position.coords.latitude + ", " + "Longitude: " + position.coords.longitude + ")";
+                 document.getElementById("result").innerHTML = positionInfo;
+                 window.location.href="test.html";
+            });
+        } else {
+            alert("Sorry, your browser does not support HTML5 geolocation.");
+        }
+    }
+</script>
+
+</head>
+<body>
+	<header>
+      	<nav>
+      		<img src="besafe1.png">
+      		<ul>
+      			<li><a class="active">HOME</a></li>
+      			<li><a href="#contact">EMERGENCY CONTACT</a></li>
+      			<li><a href="#about">ABOUT US</a></li>
+      			<li><a>MORE</a>
+      			<ul class="dropdown">
+                   	<li><a href="#right">Rights</a></li>
+                   	<li><a href="#self">Defence</a></li>
+                   </ul></li>
+      			<li><a href="logout.php">LOGOUT</a></li>
+      		</ul>
+      	</nav>
+      	<div class="main">
+      		<h3>WOMAN SECURITY</h3>
+      		<img src="logo3.png">
+      		<h2>WE ARE HERE TO SECURE YOU</h2>
+      	</div>
+    </header>
+
+    <section class="contact" id="contact">
+    	<div class="number">
+    	<div class="emer">
+    		<h1>EMERGENCY CONTACT</h1>
+        </div>
+        <div class="helpline">
+    	 <h3>Woman Helpline Numbers</h3>
+    		<p>M.P Police has taken many initiatives to tackle social evils like eveteasing, stalking, domestic violence and similar anti women issues. Affected women or person can approach a designated cell know 'We Care for You' and 'Women Helpline'. The phone numbers of 'We Care for You' and Women Helpline are given in following:</p>
+    		<table class="table">
+    			<tr>
+    			<th>Place</th>
+    			<th>Telephone Numbers</th>
+    		    </tr>
+    		    <tr>
+    				<td>State Women Helpline No.</td>
+    				<td>1090</td>
+    			</tr>
+    			<tr>
+    				<td>Women HelpLine No.</td>
+    				<td>1091</td>
+                 </tr>
+                 <tr>
+    				<td>Indore Police Whatsapp No.</td>
+    				<td>7049124445</td>
+    			</tr>
+    			<tr>
+    				<td>S.P Office/We Care fo You</td>
+    				<td>522111</td>
+    		   </tr>
+    		   <tr>
+    				<td>Mahila Thana</td>
+    				<td>2499816</td>
+    			</tr>
+    		</table>
+    	</div>
+    	</div>
+    </section>
+    
+      <section class="columns" id="right">
+   <div class="rights">
+     <div class="col">
+       <h1>WOMAN RIGHTS</h1>
+     </div>
+     <div class="row">
+       <div class="column">
+          <h2>Right to dignity and decency</h2>
+          <p>Dignity and decency are women’s personal jewels. Anybody who tries to snatch and disrobe her modesty is considered a sinner and law very well entails its punishment. </p>
+        </div>
+        <div class="column">
+          <h2>Right against dowry</h2>
+          <p>Dowry system i.e. giving and taking of dowry by bride or bridegroom or by their parents at, before or after the marriage is penalized by Dowry Prohibition Act, 1961. The Act, defines “Dowry” as any property or valuable security given or agreed to be given either directly or indirectly by one party to the other.</p>
+        </div>
+     <div class="column">
+          <h2>Rights at workplace </h2>
+          <p>You have a right to have a ladies toilet where you work. At places, with more than 30 female workers, providing facilities for care and feeding of children is mandatory. Further, the Supreme Court and the Govt. had put in to ensure the safety of women at workplaces.</p>
+        </div><br>
+        <div class="column">
+          <h2>Right against domestic violence </h2>
+          <p>Every woman is entitled to the right against Domestic Violence with her by virtue of the enactment of the Protection of Women from Domestic Violence Act in 2005. Domestic Violence includes within its ambit not only Physical abuse but also mental, sexual and economic abuse. </p>
+        </div>
+        <div class="column">
+          <h2>Right of private defence </h2>
+          <p>It is a defensive right. You can cause hurt, grievous hurt or even death in protecting your body or another person’s body from the assailant. But you can kill the assailant without attracting liability and punishment only in certain circumstances.</p>
+        </div>
+        <div class="column">
+          <h2>Right to free legal aid</h2>
+          <p>If you are an aggrieved woman, you are entitled to claim free legal services from the legal services authorities recognized under the Legal Services Authorities Act, 1987 irrespective of whether you can afford legal services on your own.</p>
+        </div>  
+   </div>
+ </div>
+</section>
+
+    <section class="container" id="about" style="margin-top: 10%;">
+		<div class="content-section">
+			<div class="title">
+				<h1>About Us</h1>
+			</div>
+			<div class="content">
+				<h3>Woman security</h3>
+				<p>Woman Security is preparing girls, women, and gender minorities for national security through equity-informed learning, college-to-career training, and mentoring.The missing “s” at Girl Security, we believe that “Security,” as a discipline and principal, underlies efforts across all sectors to close the gender gap for girls and women.</p>
+				<p>Our model<br>
+				Securing with learning Through specialized programming designed with women national security experts, child and adolescent mental health professionals, and girls, Girl Security equips participants with key concepts. <br>
+				<p>Empowering with training & leadership National security has many pathways, including cyber, law, policy, business, advocacy.As a complement to Girl Security’s learning modules, participants complete specially-curated skill-building sessions on cutting-edge national security competencies, including ethical decisionmaking, strategy and innovations.</p>
+				<p>Advancing with placement Girl Security provides participants interested in national security careers with placement in a phased mentorship network that pairs them with a national security mentor one step ahead of them in their academic and/or professional path. </p>
+				<br>
+
+				<div class="button">
+					<a href='#'> Read More </a>
+				</div>
+			</div>
+			<div class="social">
+			
+			<a href="#" class="fa fa-facebook"></a> 
+			<a href="#" class="fa fa-twitter"></a>  
+			<a href="#" class="fa fa-linkedin"></a>     
+		 	</div>
+	</div>
+</section>
+
+
+ <section class="side" id="self">
+  <div class="head">
+     <h1> Self-defence Actions</h1>
+   </div>
+      <div class="container-section">
+        <div class="row1">
+          <div class="description-container">
+            <h2>Elbow strike</h2>
+            <img src="https://thumbs.gfycat.com/FrenchFatGalapagosmockingbird-max-1mb.gif" alt="" class="img-responsive floating-image right">
+            
+             <p> If your attacker is in close range and you’re unable to get enough momentum to throw a strong punch or kick, use your elbows.<br><b>To perform:</b><br>  If you can, stabilize yourself with a strong core and legs to ensure a powerful blow.Bend your arm at the elbow, shift your weight forward, and strike your elbow into your attacker’s neck, jawline, chin, or temple.These are all effective targets.This may cause your attacker to loosen their grip, allowing you to run.</p> 
+            </div>
+            <div class="description-container">
+            <h2 >Groin kick</h2>
+             <img src="https://thumbs.gfycat.com/MetallicBoilingGermanshorthairedpointer-max-1mb.gif" alt="" class="img-responsive floating-image left">
+              <p>If someone is coming at you from the front, a groin kick may deliver enough force to paralyze your attacker, making your escape possible.<br><b>To perform:</b><br>Stabilize yourself as best you can.
+               Lift your dominant leg off the ground and begin to drive your knee upward.
+               Extend your dominant leg, drive hips forward, slightly lean back, and kick forcefully, making contact between your lower shin or ball of your foot.</p>
+              </div>
+              <div class="description-container">
+               <h2 >Heel palm strike</h2>
+               <img src="https://thumbs.gfycat.com/InnocentImpassionedBrocketdeer-max-1mb.gif" alt="" class="img-responsive floating-image right">
+                <p>This move can cause damage to the nose or throat. To execute, get in front of your attacker as much as is possible.<br><b>To perform:</b><br>With your dominant hand, flex your wrist.
+                 Aim for either the attacker’s nose, jabbing upward from the nostrils, or underneath the attacker’s chin, jabbing upward at the throat.Make sure to recoil your strike & pulling your arm back quickly.</p>
+              </div>
+         </div>
+       </div>
+        </div>
+
+</section>
+
+ <section class="location">
+    <div id="result">
+          <!--Position information will be inserted here-->
+</div>
+ <button type="button" onclick="showPosition();">Show Position</button>
+ </script>
+ </section>
+</body>
+</html> 

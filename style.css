@@ -1,0 +1,387 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+header
+{
+  background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)) ,url(woman2.jpg);
+  height: 100vh;
+  background-position: center;
+  background-size: cover;
+}
+
+nav{
+  background-color: black;
+  width: 100%;
+  height: 80px;                  
+}
+nav img{
+  width: 10%;
+  height: 100%;
+  margin-left: 60px;
+}
+nav ul{
+  float: right;
+}
+nav ul li
+{
+  display: inline-block;
+  line-height: 75px;
+    margin-right: 10px;
+}
+nav ul li a{
+  color: white;
+  font-size: 17px;
+  display: block;
+    padding: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+nav li a{
+  color: white;
+  text-decoration: none;
+  font-size: 90%;
+  font-weight: bold;
+}
+a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+  transition: all 0.5s ease-in;
+  padding: 2px 0;
+}
+ul li ul{
+  position: absolute;
+  top: 60px;
+  display: none;
+  visibility: hidden;
+}
+ul li:hover> ul,
+ul li:focus-within > ul,
+ul li ul:hover{
+  visibility: visible;
+  opacity: 1;
+  display:  block;
+  padding: 0px;
+  margin-right: 40px;
+}
+ul li ul li{
+  clear: both;
+  width: 50%;
+}
+.dropdown li a{
+  padding: 2px;
+  margin-right: 10px;
+  display: block;
+}
+
+.main img{
+  margin-top: 10px;
+  width: 20%;
+  height: 20%;
+  margin-left: 38%;
+}
+.main h3{
+  margin-top: 15%;
+  margin-left: 40%;
+  font-size: 25px;
+  color: white;
+}
+.main h1{
+  padding-top: 20px;
+  margin-left: 40%;
+  font-size: 60px;
+  color: white;
+}
+
+.main h2{
+  padding-top: 20px;
+  margin-left: 35%;
+  font-size: 25px;
+  color: white;
+  font-family: sans-serif;
+}
+
+.contact{
+  margin-top: 60px;
+  margin-bottom: 20px;
+}
+.number{
+  float: left;
+  width: 75%;
+  background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url(help5.jpg);
+  background-size: cover;
+  background-attachment: initial;
+  border-radius: 10%;
+  width: 95%;
+  height: 120%;
+  margin-left: 40px;
+}
+.number .emer{
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-top: 40px;
+  color: white;
+  margin-left: 35%;
+  font-weight: bold;
+}
+.number .helpline h3
+{
+  margin-top: 50px;
+  letter-spacing: 5px;
+  margin-left: 37%;
+  font-size: 28px;
+  color: white;
+  font-weight: bold;
+}
+.number p{
+  font-size: 20px;
+  margin-left: 10%;
+  margin-top: 40px;
+  color: white;
+  font-weight: bold;
+}
+.number table, th, td{
+  border: 2px solid white;
+  margin-left: 25%;
+  margin-top: 50px;
+  padding: 20px;
+  width: 50%;
+  text-align: center;
+  color: white;
+  font-weight: bold;
+  font-size: 26px;
+}
+.rights .col{
+  margin-top: 70%;
+    margin-left: 45%;
+    padding-top: 20px;
+    margin-bottom: 30px;
+}
+/*.columns{
+  margin-top: 10%;
+  width: 100%;
+  height: 80vh;
+  margin-bottom: 20%;
+  background-image: url(safe2.jpg);
+  background-size: cover;
+  
+}
+.columns .rights{
+  position: relative;
+  width: 100%;
+  height: 143px;
+  bottom: 0;
+  left: 0;
+  margin-top: 20%;
+    background: url(wave.png);
+    animation: animate 10s linear infinite;
+}
+.columns .rights:before{
+  content: '';
+  width: 100%;
+  height: 143px;
+  top: 20%;
+  left: 0;
+    background: url(wave.png);
+    position: relative;
+    opacity: 0.4;
+    animation: animate-reverse 10s linear infinite;
+}
+
+.columns .rights:after{
+  content: '';
+  width: 100%;
+  height: 143px;
+  top: 0%;
+  left: 0;
+    background: url(wave.png);
+    position: relative;
+    opacity: 0.6;
+    animation: -5s
+    animation: animate-reverse 20s linear infinite;
+}
+@keyframes animate{
+  0%{
+    background-position: 0;
+  }
+  100%{
+    background-position: 1360px;
+  }
+}
+
+@keyframes animate-reverse{
+  0%{
+    background-position: 1360px;
+  }
+  100%{
+    background-position: 0;
+  }
+}*/
+.row{
+  margin: 0;
+  margin-left: 10%;
+  width: 80%;
+}
+.column{
+  background: linear-gradient(135deg,#d41e31,#491f8f);
+  display: table-cell;
+  padding: 50px;
+  width: 20%;
+  height: 30%;
+  justify-content: center;
+  margin-top: 60px;
+  text-align: center;
+  color: white;
+  border-left: 10px solid #fff;
+  border-right: 10px solid #fff;
+  border-radius: 120%;
+  margin-bottom: 20px;
+}
+.column p{
+  padding: 10px;
+}
+.column h2{
+  padding: 20px;
+}
+.columns .row .column:hover{
+  background-color: grey;
+  transition: all 0.5s ease-in;
+}
+
+.container{
+  width: 80%;
+  display: block;
+  margin: auto;
+  padding-top: 98px;
+  background-image: url(bck.jpg);
+  background-size: cover;
+  width: 95%;
+  top: 200px;
+  margin-top: 10%;
+  margin-left: 40px;
+  height: 110vh;
+}
+.content-section{
+  float: left;
+  width: 75%;
+}
+.content-section .title{
+  text-transform: uppercase;
+  font-size: 28px;
+  margin-left: 60%;
+}
+.content-section .content  h3{
+  margin-top: 20px;
+  color:#8b008b;
+  font-size: 24px;
+  color: black;
+    margin-left: 10%;
+}
+.content-section .content p{
+  margin-top: 20px;
+  font-family: sans-serif;
+  font-size: 19px;
+  line-height: 1.5;
+  color: black;
+  margin-left: 20%;
+    font-style: italic;
+    margin-bottom: 20px;
+} 
+.content-section .content .button a{
+  margin-top: 60px;
+  margin-left: 50%;
+}
+.content-section .content .button a{
+  background-color: #8b008b;
+  padding: 12px 40px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 25px;
+  letter-spacing: 1.5px;
+  border-radius: 50px;
+}
+.content-section .content .button a:hover{
+  background: #8b008b;  
+    background-color:grey; 
+} 
+.content-section .social{
+  margin: 30px 30px;
+  margin-left: 51%;
+  color: white;
+  padding: 10px;
+}
+.fa {  
+  padding: 20px;  
+  text-align: center;  
+  margin: 5px 1px;  
+  font-size: 20px;  
+  border-radius: 80px;
+}  
+.fa-linkedin {  
+  background: #8b008b;  
+  color: white;  
+}  
+.fa-facebook {  
+  background: #8b008b;
+  color: white;  
+}  
+.fa-twitter {  
+  background: #8b008b;  
+  color: white;  
+}  
+.fa:hover {
+  opacity: 0.7;
+  background-color:black;
+}
+.side{
+  background-image: url(nice.png);
+  background-position: relative;
+    background-size: cover;
+    margin-top: 10%;
+}
+.head h1{
+    padding: 50px;
+    margin-left: 40%;
+}
+.row1{
+  margin: 0;
+  margin-left: 30%;
+  width: 50%;
+}
+.description-container{
+  display: table-cell;
+  padding: 10px;
+  width: 15%;
+  height: 30%;
+  margin-top: 0px;
+  text-align: center;
+  border-radius: 100%;
+}
+.description-container h2{
+  margin-top: 10%;
+  color: black;
+}
+.description-container p{
+  margin-top: 30px;
+  font-size: 17px;
+  padding: 20px;
+  color: black;
+}
+.description-container .floating-image{
+  max-width: 350px;
+  border-radius: 150%;
+  padding: 30px;
+  margin-right: 10px;
+}
+.location{
+  margin-top: 10%;
+  margin-left: 45%;
+  padding: 20px;
+}
+.location button{
+  color: red;
+  padding: 20px;
+  font-size: 30px;
+  font-weight: bold;
+  background-color: yellow;
+}
